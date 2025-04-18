@@ -1,0 +1,86 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f8f2ff;
+  color: #3a2d4f;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #d9c9f2;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5e4b8b;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #2c1c48;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  animation: fadeIn 1s ease forwards;
+}
+
+h2 {
+  color: #6d4d9c;
+  border-bottom: 2px solid #e1d5f6;
+  padding-bottom: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #6d4d9c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e9dffb;
+  color: #4e3a70;
+  margin-top: 30px;
+}
+
+/* Subtle fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
